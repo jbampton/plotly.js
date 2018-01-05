@@ -833,7 +833,7 @@ describe('Test gl3d relayout calls', function() {
     });
 });
 
-describe('Test gl2d plots', function() {
+fdescribe('Test gl2d plots', function() {
     var gd;
 
     var mock = require('@mocks/gl2d_10.json');
@@ -1114,7 +1114,7 @@ describe('Test gl2d plots', function() {
     });
 });
 
-describe('Test removal of gl contexts', function() {
+fdescribe('Test removal of gl contexts', function() {
     var gd;
 
     beforeEach(function() {
@@ -1342,7 +1342,7 @@ describe('Test gl plot side effects', function() {
     });
 });
 
-describe('Test gl2d interactions', function() {
+fdescribe('Test gl2d interactions', function() {
     var gd;
 
     beforeEach(function() {
